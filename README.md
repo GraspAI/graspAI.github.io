@@ -18,6 +18,8 @@ Read more about it here: https://gohugo.io/getting-started/usage/#draft-future-a
 Only on main branch
 - this will cause an action workflow to run to generate the site for github pages. No need to run the build locally.
 
+Developing should be done on dev branch to be able to preview the changes and not cause too many build workflows to run.
+
 ## Building the Hugo Project (Local)
 ```sh
 hugo [flags]
