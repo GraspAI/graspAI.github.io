@@ -15,7 +15,7 @@ The -D flag includes the draft content in the build, so some draft files.
 Read more about it here: https://gohugo.io/getting-started/usage/#draft-future-and-expired-content
 
 ## Deploy
-Only on deploy branch
+Only on main branch
 - this will cause an action workflow to run to generate the site for github pages. No need to run the build locally.
 
 ## Building the Hugo Project (Local)
