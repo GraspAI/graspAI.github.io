@@ -18,6 +18,7 @@ contentDir = "content/en"
 languageCode = 'en-US'
 weight = 1
 title = "Home"
+
 # languageDirection = 'rtl' for Right-To-Left languages
 
 [sitemap]
