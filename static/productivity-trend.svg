@@ -1,0 +1,37 @@
+<svg viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Grid lines -->
+  <g stroke="#e0e0e0" stroke-width="1">
+    <line x1="50" y1="250" x2="450" y2="250"/>
+    <line x1="50" y1="200" x2="450" y2="200"/>
+    <line x1="50" y1="150" x2="450" y2="150"/>
+    <line x1="50" y1="100" x2="450" y2="100"/>
+    <line x1="50" y1="50" x2="450" y2="50"/>
+  </g>
+  
+  <!-- Axis -->
+  <line x1="50" y1="250" x2="450" y2="250" stroke="#333" stroke-width="2"/>
+  <line x1="50" y1="50" x2="50" y2="250" stroke="#333" stroke-width="2"/>
+  
+  <!-- Data line -->
+  <path d="M 100,230 L 275,150 L 450,70" 
+        fill="none" 
+        stroke="#49F892" 
+        stroke-width="3"/>
+  
+  <!-- Points -->
+  <circle cx="100" cy="230" r="6" fill="#49F892"/>
+  <circle cx="275" cy="150" r="6" fill="#49F892"/>
+  <circle cx="450" cy="70" r="6" fill="#49F892"/>
+  
+  <!-- Labels -->
+  <text x="90" y="270" font-family="system-ui, sans-serif" font-size="14">1960s</text>
+  <text x="260" y="270" font-family="system-ui, sans-serif" font-size="14">1990s</text>
+  <text x="440" y="270" font-family="system-ui, sans-serif" font-size="14">2020s</text>
+  
+  <text x="30" y="255" font-family="system-ui, sans-serif" font-size="14">0</text>
+  <text x="30" y="205" font-family="system-ui, sans-serif" font-size="14">10</text>
+  <text x="30" y="155" font-family="system-ui, sans-serif" font-size="14">20</text>
+  <text x="30" y="105" font-family="system-ui, sans-serif" font-size="14">30</text>
+  
+  <text x="20" y="160" font-family="system-ui, sans-serif" font-size="14" transform="rotate(-90,20,160)">Hours per Week</text>
+</svg>
