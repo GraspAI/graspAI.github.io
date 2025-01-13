@@ -1,9 +1,9 @@
-<div class="relative left-0 right-0 w-100 bg-near-white">
-  <div class="flex flex-column mw9 center ph3 ph5-l">
+<div class="w-100 bg-near-white">
+  <div class="flex stats mw9 ph3 ph5-l">
     <div class="w-100 ph4 pv4">
       <div class="bg-white ba b--black-10 br3 pa5 shadow-4">
         <h3 class="f3 mt0 mb4">The Great Ideas Vanishing Act</h3>
-        <div class="f-headline b mb4" style="color: #49F892;">80%</div>
+        <div class="f-headline b mb4" style="color: #1dc061;">80%</div>
         <p class="f4 lh-copy">of brilliant ideas from brainstorming sessions disappear into the corporate void. It's
           like having a photographic memory that automatically deletes every photo.</p>
       </div>
@@ -12,7 +12,7 @@
     <div class="w-100 ph4 pv4">
       <div class="bg-white ba b--black-10 br3 pa5 shadow-4">
         <h3 class="f3 mt0 mb4">The Task Follow-up Black Hole</h3>
-        <div class="f-headline b mb4" style="color: #49F892;">40%</div>
+        <div class="f-headline b mb4" style="color: #1dc061;">40%</div>
         <p class="f4 lh-copy">of project delays stem from inefficient task follow-ups. Picture a game of telephone, but
           instead of a funny message, it's your project deadlines getting distorted.</p>
       </div>
@@ -21,10 +21,33 @@
     <div class="w-100 ph4 pv4">
       <div class="bg-white ba b--black-10 br3 pa5 shadow-4">
         <h3 class="f3 mt0 mb4">The Decision-Making Maze</h3>
-        <div class="f-headline b mb4" style="color: #49F892;">60%</div>
+        <div class="f-headline b mb4" style="color: #1dc061;">60%</div>
         <p class="f4 lh-copy">of employees can't trace decisions made within their department. It's like playing
           corporate archaeology, trying to excavate who decided what and when.</p>
       </div>
     </div>
   </div>
 </div>
+
+<style>
+  .stats {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .stats > div {
+    max-width: 400px;
+  }
+
+  @media screen and (max-width: 500px) {
+    .stats > div {
+      max-width: 90vw;
+      min-width: 350px;
+    }
+    
+  }
+</style>

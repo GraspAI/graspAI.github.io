@@ -6,6 +6,8 @@ title: "The Meeting Mayhem: Time to Break Free"
 weight: 10
 ---
 
+{{< video>}}
+
 # The Meeting Marathon: Where Time Goes to Hide
 
 Ever felt like you're living in a perpetual cycle of "This could have been an email"? You're not alone. In fact, we spend a staggering one-third of our working hours in meetings – that's roughly 13 years of your career spent staring at colleagues in rectangles or around conference tables!
@@ -42,7 +44,5 @@ Imagine a world where:
 * Meetings actually move projects forward instead of becoming discussion loops
 
 This isn't just a dream – it's what we're building. Our solution transforms the way teams collaborate, ensuring that every minute spent in meetings drives real value and tangible outcomes.
-
-{{< video>}}
 
 {{< meeting-cta >}}
