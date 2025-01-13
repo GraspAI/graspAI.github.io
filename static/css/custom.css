@@ -1,0 +1,26 @@
+.cf {
+
+  text-align: justify;
+
+  opacity: 1.0;
+
+  width: 100%;
+
+  height: auto;
+}
+  
+.nested-links{
+
+  text-align: justify;
+
+  opacity: 1.0;
+
+  width: 100%;
+
+  height: auto;
+
+}
+
+.cf > h2, .cf > h1 {
+  text-align: center !important;
+}

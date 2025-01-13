@@ -46,4 +46,7 @@ Imagine a world where:
 
 This isn't just a dream – it's what we're building. Our solution transforms the way teams collaborate, ensuring that every minute spent in meetings drives real value and tangible outcomes.
 
+## Our Offer
+{{< pricing >}}
+
 {{< meeting-cta >}}

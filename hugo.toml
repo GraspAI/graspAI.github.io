@@ -40,3 +40,4 @@ featured_image_class = "cover bg-top"
 cover_dimming_class = "bg-dark-green-60"
 recent_posts_number = 3
 Copyright = "graspAI. All rights reserved."
+custom_css = ["/css/custom.css"]
