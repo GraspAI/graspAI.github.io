@@ -2,7 +2,8 @@
 draft: false
 params:
   author: John Smith
-title: "The Meeting Mayhem: Time to Break Free"
+title: "graspAI"
+headline: "The Meeting Mayhem: Time to Break Free"
 weight: 10
 ---
 
