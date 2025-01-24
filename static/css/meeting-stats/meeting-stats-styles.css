@@ -1,0 +1,77 @@
+.page-header {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #1c3d29;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-align: center; /* Ensures the headers are centered */
+}
+
+.page-paragraph {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #444;
+    max-width: 90%;
+    margin: 0 auto 30px auto;
+    padding: 0 20px;
+}
+
+.image-container {
+    display: block;
+    margin: 20px auto;
+    max-width: 55%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.image-figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.page-content ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.page-content ul li {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.page-content ul li::before {
+    content: '✓';
+    color: #2c6b3b;
+    font-size: 1.6rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.page-content ul li:hover {
+    color: #2c6b3b;
+    transition: color 0.3s ease;
+}
+
+.page-content ul li:hover::before {
+    color: #1b4c24;
+    transition: color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .image-container {
+        max-width: 100%;
+    }
+    .image-figure img {
+        width: 100%;
+        height: auto;
+    }
+}

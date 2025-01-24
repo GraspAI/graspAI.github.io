@@ -1,0 +1,16 @@
+.page-header {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #1c3d29;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.page-paragraph {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #444;
+    max-width: 90%;
+    margin: 0 auto 30px auto;
+    padding: 0 20px;
+}
